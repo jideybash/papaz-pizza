@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+.background-image {
+  background-image: url("back123.jpg");
+  background-position: center;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+body {
+  background: url("back123.jpg") no-repeat fixed center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: #0c865d;
+  margin-top: 15px;
+}
+
+header {
+  background: #0c865d;
+}
+.header {
+  width: 100%;
+  height: 100%;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: rgb(175, 16, 16);
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+#wrapper {
+  width: 65em;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#main {
+  background-color: #fff;
+  padding: 1em;
+  width: 48em;
+  float: left;
+}
+
+aside {
+  background-color: #d6a10e;
+  padding: 1em;
+  width: 13em;
+  float: right;
+  height: 45em;
+}
+/* search */
+input {
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  margin: 7px 0px;
+  width: 50%;
+  height: 35px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  border: 1px solid #eee;
+  transition: 0.3s border-color;
+}
+input:hover {
+  border: 1px solid #aaa;
+}
+input#search {
+  width: 70%;
+}
+.search-container {
+  float: right;
+}
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+#footer {
+  background-color: #3b597d;
+  margin: 0;
+  padding: 1em;
+  color: #fff;
+  clear: both;
+}
+/* Navigation links */
+
+/*Alignment classes*/
+
+.alignright {
+  float: right;
+  padding: 0 0 1em 1em;
+}
+.alignleft {
+  float: left;
+  padding: 0 1em 1em 0;
+}
+.aligninline {
+  display: block;
+  padding: 0.5em 0 2em 0;
+}
+.textright {
+  text-align: right;
+}
+.textcenter {
+  text-align: center;
+}
+
+/*Accessibility*/
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+footer {
+  border-top: 2px solid rgb(68, 76, 169);
+  clear: both;
+  float: left;
+  width: 100%;
+}
+address {
+  background-color: rgb(204, 204, 204);
+  font-style: normal;
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+/* menu */
+.menu img {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  margin: 5px 20px;
+}
+article {
+  float: right;
+  padding-right: 20px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            My Pizza
+            Author: Babajide Bashiru
+            Date: 11-20-2020
+
+            Filename: AboutUs.html
+            Supporting files: 
+            
+        -->
+        <meta charset="utf-8">
+        <title>Papaz Pizza</title>
+        <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Assets/Styles/fstyle.css" >
+    </head>
+
+    <body class="background-image">
+        <div id="wrapper">
+            <header>
+            <div class="container">
+                
+                <a href="index.html" class="logo"><img src="Assets/Images/p.png" alt="logo" width="100" height="80"></a>
+                
+        
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menus.html">Menu</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+                <img class="header" src="Assets/Images/pizza-header.png" alt="logo">
+            
+            <section id="main">
+                <h1>CONTACT US</h1>
+                <h3>Thanks for your interest. Please send us comments using the form below:</h3>
+                <form id="testForm" name="testForm" action="#" method="post">
+                    <fieldset id="contactFields">
+                    <label for="fName">First Name</label>
+                    <input type="text" id="fName" name="fName" required="required" 
+                    pattern="/^[A-Za-z]+/"/>
+
+                    <label for="lName">Last Name</label>
+                    <input type="text" id="lName" name="lName" required="required" 
+                    pattern="/^[A-Za-z]+/"/>
+                    
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(nnn) nnn-nnnn"
+                            required="required"
+                            pattern="^\d{10}$|^(\(\D{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"/>
+
+                    <label>Comments</label>
+                    <textarea placeholder="Comment..."></textarea>
+                    <br>
+
+                    <input type="checkbox" id="call" name="call" />
+                    <label id="checkbox" for="call">Please Send me Monthly Newsletter</label>
+
+                    <input type="submit" value="Send" />
+                    <input type="reset" value="Reset" />
+                </fieldset>
+                </form>
+            </section>
+            <aside>
+                <div class="search-container">
+                    <form action="#">
+                    <input id="search" type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <br>
+            <h3>Download Our App</h3>
+            <p>Get our best offers direct to your device and order "My Pizza" wherever you go with our mobile app.</p>
+            <img src="Assets/Images/badge-app-store.svg" alt="app-store" width="90" height="60">
+            <img src="Assets/Images/google.svg" alt="google-app" width="90" height="60" >
+            <br>
+            <h1>(COVID-19) Updates and Latest News</h1>
+            <p>Our Standard Safety Procedures</p>
+            <ul>
+                <li>Mask</li>
+                <li>Single-Use Disposable Gloves</li>
+                <li>Team Member Temperature Checks</li>
+                <li>Social Distancing Reminders</li>
+                
+            </ul>
+            </aside>
+        
+            <footer>
+                <address>
+                    Papaz Pizza &#183;
+                    175 South Avenue &#183;
+                    Brownwood, TX 76801 &#183;
+                    (325) 555 - 0155 &#183;
+                    info@mypizza.com
+                </address>
+            </footer>
+        </div>
+        </body>
+</html>

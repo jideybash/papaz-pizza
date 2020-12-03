@@ -1,0 +1,26 @@
+/* 
+    Young Notes Staff Style Sheet
+    Author: Babajide Bashiru
+    Date: 11/18/2020
+
+    Filename: sstyle.css
+    Supporting Files: none
+*/
+aside {
+  display: block;
+  width: 400px;
+  float: right;
+  background-color: ivory;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px 0px 20px 20px;
+}
+
+aside img {
+  float: right;
+  margin: 5px;
+}
+aside {
+  height: 250px;
+  overflow: auto;
+}
